@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.KuaishouAutoGold" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Background color. -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+        <!-- Surface color. -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <!-- Error color. -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- Shape appearance. -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.KuaishouAutoGold.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.KuaishouAutoGold.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.KuaishouAutoGold.LargeComponent</item>
+        <!-- Typography. -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.KuaishouAutoGold.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.KuaishouAutoGold.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.KuaishouAutoGold.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.KuaishouAutoGold.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.KuaishouAutoGold.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.KuaishouAutoGold.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.KuaishouAutoGold.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.KuaishouAutoGold.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.KuaishouAutoGold.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.KuaishouAutoGold.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.KuaishouAutoGold.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.KuaishouAutoGold.LabelSmall</item>
+        <!-- Elevation. -->
+        <item name="elevationOverlayEnabled" tools:ignore="NewApi">true</item>
+        <item name="elevationOverlayColor">?attr/colorPrimary</item>
+        <item name="android:elevation" tools:ignore="NewApi">4dp</item>
+        <!-- Window. -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        <item name="android:windowTranslucentNavigation" tools:ignore="NewApi">true</item>
+        <!-- Action bar. -->
+        <item name="actionBarStyle">@style/Widget.KuaishouAutoGold.ActionBar</item>
+        <item name="actionBarSize">?attr/actionBarSize</item>
+        <!-- Toolbar. -->
+        <item name="toolbarStyle">@style/Widget.KuaishouAutoGold.Toolbar</item>
+        <!-- Button. -->
+        <item name="materialButtonStyle">@style/Widget.KuaishouAutoGold.Button</item>
+        <!-- Card. -->
+        <item name="materialCardViewStyle">@style/Widget.KuaishouAutoGold.CardView</item>
+        <!-- Text field. -->
+        <item name="outlinedTextFieldStyle">@style/Widget.KuaishouAutoGold.TextField</item>
+    </style>
+
+    <!-- Shape appearances. -->
+    <style name="ShapeAppearance.KuaishouAutoGold.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="ShapeAppearance.KuaishouAutoGold.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="ShapeAppearance.KuaishouAutoGold.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Text appearances. -->
+    <style name="TextAppearance.KuaishouAutoGold.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.BodySmall" parent="TextAppearance.Material3.BodySmall">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+    </style>
+    <style name="TextAppearance.KuaishouAutoGold.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+    </style>
+
+    <!-- Widget styles. -->
+    <style name="Widget.KuaishouAutoGold.ActionBar" parent="Widget.Material3.ActionBar">
+    </style>
+    <style name="Widget.KuaishouAutoGold.Toolbar" parent="Widget.Material3.Toolbar">
+    </style>
+    <style name="Widget.KuaishouAutoGold.Button" parent="Widget.Material3.Button">
+    </style>
+    <style name="Widget.KuaishouAutoGold.CardView" parent="Widget.Material3.CardView">
+    </style>
+    <style name="Widget.KuaishouAutoGold.TextField" parent="Widget.Material3.TextField.OutlinedBox">
+    </style>
+</resources>
